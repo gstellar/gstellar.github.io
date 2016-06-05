@@ -201,11 +201,12 @@ body {
 }
 
 .pager-landing-container {
-  display: -webkit-flex;
-  display: flex;
-  height: 100%;
-  -webkit-align-items: center;
-  align-items: center;
+  // display: -webkit-flex;
+  // display: flex;
+  // height: 100%;
+  // -webkit-align-items: center;
+  // align-items: center;
+      margin: 26px auto 0 auto;
 }
 
 .pager-landing-title {
