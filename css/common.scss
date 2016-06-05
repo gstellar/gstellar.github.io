@@ -160,8 +160,9 @@ body {
     background-repeat: no-repeat; 
     border-top: 5px solid #654754;
     background-size: contain;
-    
-    .btn-add-to-slack {
+}
+
+.btn-add-to-slack {
       border: 2px solid rgba(83,200,172,1);
       border-radius: 3px;
       position: absolute;
@@ -188,8 +189,6 @@ body {
         margin-right: 5px;
       }
       
-    }
-    
 }
 
 .pager-landing-container {
@@ -232,7 +231,15 @@ body {
 .pager-landing-browser {
   display: block;
   position: absolute;
-  top: -60px;
+  top: 30px;
+  width: 850px;
+}
+
+.pager-landing-browser1 {
+    display: block;
+    position: absolute;
+    top: -120px;
+    width: 380px;
 }
 
 .section {
