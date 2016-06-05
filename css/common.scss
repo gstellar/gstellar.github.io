@@ -160,19 +160,25 @@ body {
     background-repeat: no-repeat; 
     border-top: 5px solid #654754;
     background-size: contain;
+    
+    .btn-add-to-slack {
+      position: absolute;
+      top: 15px;
+      right: 20px;
+    }
+    
 }
 
 .btn-add-to-slack {
       border: 2px solid rgba(83,200,172,1);
       border-radius: 3px;
-      position: absolute;
-      top: 15px;
-      right: 20px;
+      display: block;
       padding: 10px 20px;
       text-decoration: none !important;
       color: #fff;
       background: rgba(83, 200, 172, 0.6);
-      font-size: 20px;    
+      font-size: 20px;
+      max-width: 220px;    
       font-family: 'Montserrat', sans-serif;
       -webkit-transition: background 0.2s ease-in;
       -moz-transition: background 0.2s ease-in;
