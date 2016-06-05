@@ -157,7 +157,8 @@ body {
     background-color: #d9efe1;
     background-image: url('../images/banner.png');
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; 
+    border-top: 5px solid #654754;
 }
 
 .pager-landing-container {
@@ -366,7 +367,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 3px;
   /*background-color: #3b5998;*/
-  background: rgba(59,89,152, 1);
+  background: #654754;  
   color: white;
 }
 
@@ -535,3 +536,8 @@ body {
   .section-col-divided .col-md-4 { border-right: 1px solid }
   .section-col-divided .col-md-4:last-of-type { border-right: 0 }
 }              
+
+
+.icons {
+      font-size: 150px;
+}
