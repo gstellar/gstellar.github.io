@@ -127,7 +127,7 @@
   <div class="section section-creator">
     <div class="container">
       <div class="text-center">
-        <p class="lead lead-lg creator-title">Creators of Pager</p>
+        <p class="lead lead-lg creator-title">Team</p>
       </div>
       <div class="creator-content">
         <a href="http://www.alisterdev.com/" target="_blank">
@@ -135,17 +135,23 @@
             <div class="creator" style="background-image: url('images/alex.jpg');"></div>
             <p class="lead">Alex Ilea</p>
           </div>
-        </a>
-        <a href="http://www.shvchnko.com/" target="_blank">
-          <div class="col-md-4 text-center">
-            <div class="creator" style="background-image: url('images/anton.jpg');"></div>
-            <p class="lead">Anton Shevchenko</p>
-          </div>
-        </a>
-        <a href="http://ddayrg.com/" target="_blank">
+        </a>       
+        <a href="" target="_blank">
           <div class="col-md-4 text-center">
             <div class="creator" style="background-image: url('images/darrel.jpg');"></div>
             <p class="lead">Darrel-Day Guerrero</p>
+          </div>
+        </a>
+        <a href="" target="_blank">
+          <div class="col-md-4 text-center">
+            <div class="creator" style="background-image: url('images/darrel.jpg');"></div>
+            <p class="lead">Eric Tang</p>
+          </div>
+        </a>
+         <a href="" target="_blank">
+          <div class="col-md-4 text-center">
+            <div class="creator" style="background-image: url('images/anton.jpg');"></div>
+            <p class="lead">Stella Lee</p>
           </div>
         </a>
       </div>
@@ -224,58 +230,6 @@
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-  <script>
-    $(document).ready( function () {
-
-      // I only have one form on the page but you can be more specific if need be.
-      var $form = $('#newsletter-form');
-
-      if ($form.length > 0) {
-        $('#newsletter-form .btn-landing').bind('click', function (event) {
-        if (event) event.preventDefault();
-        signUp($form);
-    // validate_input() is a validation function I wrote, you'll have to substitute this with your own.
-    //if ( validate_input($form) ) {  }
-        });
-      }
-    });
-
-    function signUp($form) {
-      $.ajax({
-        type: $form.attr('method'),
-        url:  $form.attr('action'),
-        data: $form.serialize(),
-        cache: false,
-        dataType: 'jsonp',
-        jsonp: 'c', 
-        contentType: "application/json; charset=utf-8",
-        error: function(err) { 
-          alert('oops');
-          $("#signup_result").addClass('alert-danger');
-          $("#signup_result p").html(data.msg);
-          $("#signup_result").slideDown().alert();
-          $("#signup_result").fadeTo(2000, 500).delay(5000).slideUp(500, function() {
-            $("#signup_result").alert('close');
-          }); 
-        }, 
-        success: function(data) {
-          if (data.result == "success") {
-            $("#signup_result").addClass('alert-success');
-          } else {
-            $("#signup_result").addClass('alert-warning');
-          } 
-
-
-          $("#signup_result p").html(data.msg);
-          $("#signup_result").slideDown().alert();
-          $("#signup_result").fadeTo(2000, 500).delay(5000).slideUp(500, function() {
-            $("#signup_result").alert('close');
-          }); 
-
-        }
-      });
-    }
-  </script>  
   </body>
 
 </html>
