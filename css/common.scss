@@ -567,6 +567,7 @@ body {
     display: -webkit-flex;
     display: flex;
     text-align: left;
+    padding: 20px 0;
     -webkit-align-items: flex-end;
             align-items: flex-end;
     
@@ -588,4 +589,8 @@ body {
 
 .icons {
       font-size: 150px;
+}
+
+.section1 {
+  padding: 190px 30px;
 }
