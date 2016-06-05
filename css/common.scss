@@ -615,3 +615,11 @@ body {
       color: #FAC453;
 }
 
+.section2 {
+  @media (min-width: 768px) {
+    .lead b {
+              font-size: 35px;
+    font-variant: small-caps;
+    }  
+  }  
+}
