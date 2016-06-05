@@ -19,7 +19,7 @@ body {
 */
 .container {
   max-width: 960px; 
-}
+}   
 
 .text-gray {
   color: gray !important; 
@@ -153,7 +153,8 @@ body {
 .pager-landing {
     position: relative;
     height: 450px;
-    background-image: url('../images/landing_small.jpg');
+    background-color: #d9efe1; 
+    /*background-image: url('../images/landing_small.jpg');*/
     background-size: cover;
     /*background-position: 0 570px; */
 }
