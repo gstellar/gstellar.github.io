@@ -154,11 +154,10 @@ body {
 .pager-landing {
     position: relative;
     height: 450px;
-    //background-image: url('../images/landing_small.jpg');
     background-color: #d9efe1;
     background-image: url('../images/banner.png');
-    background-size: cover;
-    /*background-position: 0 570px; */
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .pager-landing-container {
