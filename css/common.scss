@@ -180,6 +180,13 @@ body {
       &:hover {
         background: rgba(83, 200, 172, 1);
       }
+      
+      img {
+        width: 25px;
+        height: 25px;
+        margin-right: 5px;
+      }
+      
     }
     
 }
@@ -392,6 +399,7 @@ body {
   /*background-color: #3b5998;*/
   background: #654754;  
   color: white;
+  margin-top: 2px;
 }
 
 .site { font-family: Lato, sans-serif }
