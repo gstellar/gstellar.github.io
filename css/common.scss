@@ -149,17 +149,18 @@ body {
    border: 1px solid #e6e6e6;
    box-shadow: none;
    border-radius: 0;
-}
+} 
 
 .pager-landing {
     position: relative;
-    height: 450px;
+    height: 480px;
+    
     background-color: #d9efe1;
-    background-image: url('../images/banner.png');
-    background-position: center;
-    background-repeat: no-repeat; 
+    background-image: url("../images/banner.png");
+    background-position: bottom center;
+    background-repeat: no-repeat;
     border-top: 5px solid #654754;
-    background-size: contain;
+    background-size: 480px;
     
     .btn-add-to-slack {
       position: absolute;
