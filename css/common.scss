@@ -159,6 +159,24 @@ body {
     background-position: center;
     background-repeat: no-repeat; 
     border-top: 5px solid #654754;
+    
+    .btn-add-to-slack {
+      border: 1px solid #654754;
+    border-radius: 3px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    background: rgba(83, 200, 172, 0.6);
+    font-size: 20px;    
+    font-family: 'Montserrat', sans-serif;
+    transition:  background 2s ease-in; 
+      &:hover {
+        background: rgba(83, 200, 172, 1);
+      }
+    }
+    
 }
 
 .pager-landing-container {
