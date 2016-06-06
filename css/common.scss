@@ -9,8 +9,6 @@
       sass --watch css/common.scss:css/common.css --style compressed
  */
 
-
-
 body {
   font-family: 'Open Sans', sans-serif;  
 }
@@ -623,4 +621,8 @@ body {
     font-variant: small-caps;
     }  
   }  
+}
+
+.btn-announcement {
+  text-decoration: none !important;
 }
